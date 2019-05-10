@@ -1,0 +1,9 @@
+FROM node:10-alpine
+
+RUN apk add make
+
+RUN npm i -g gatsby-cli
+
+RUN npm i -g http-server
+
+RUN npm i -g lighthouse
